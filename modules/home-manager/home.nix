@@ -12,6 +12,7 @@
   home.stateVersion = "23.11"; # Please read the comment before changing.
 
   home.packages = with pkgs; [
+    rustup
     brightnessctl
     hyprpaper
     onefetch
