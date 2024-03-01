@@ -14,6 +14,7 @@
   home.packages = with pkgs; [
     brightnessctl
     hyprpaper
+    onefetch
     neofetch
     discord
     feh

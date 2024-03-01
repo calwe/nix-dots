@@ -20,12 +20,21 @@ window#waybar {
 #workspaces button {
     border: none;
     border-radius: 0px;
-    padding: 0px 5px 0px 12px;
+    padding: 0px 5px 2px 16px;
 }
 
 #workspaces button.active {
     border-bottom: 3px solid;
     border-color: #cba6f7;
+    padding: 0px 5px 0px 12px;
+}
+
+#workspaces button:hover {
+    background: none;
+    border-bottom: 3px solid;
+    border-color: #45475a;
+    box-shadow: inherit;
+    text-shadow: inherit;
 }
 
 #clock {
