@@ -1,0 +1,39 @@
+* {
+    font-family: "JetBrainsMonoNF";
+    font-weight: 900;
+    font-size: 18px;
+}
+
+window {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    border: 3px solid;
+    border-color: #cba6f7;
+    border-radius: 3px;
+}
+
+#input {
+    background-color: #45475a;
+    color: #cdd6f4;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+#entry {
+    margin: 2px 20px;
+    padding: 5px;
+}
+
+#entry:selected {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid;
+    border-color: #a6e3a1;
+    color: #cdd6f4
+}
+
+#entry:selected #text {
+    color: #cdd6f4
+}

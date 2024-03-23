@@ -19,8 +19,9 @@
     neofetch
     discord
     feh
+    spotify
     pavucontrol
-    wofi
+    ripgrep
     mullvad-vpn
     firefox
     inputs.nixvim-flake.packages.x86_64-linux.default
