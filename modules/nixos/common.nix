@@ -15,6 +15,7 @@
 
   fonts.packages = with pkgs; [
     nerdfonts
+    monaspace
   ];
 
   fonts.fontDir.enable = true;
