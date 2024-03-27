@@ -70,6 +70,7 @@
           "$mod SHIFT, l, resizeactive, 10 0"
           "$mod SHIFT, j, resizeactive, 0 -10"
           "$mod SHIFT, h, resizeactive, 0 10"
+          "$mod, v, togglefloating"
           # media keys
           ",XF86MonBrightnessUp, exec, brightnessctl s +5%"
           ",XF86MonBrightnessDown, exec, brightnessctl s 5%-"
