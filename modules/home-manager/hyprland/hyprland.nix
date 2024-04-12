@@ -75,6 +75,8 @@
           # media keys
           ",XF86MonBrightnessUp, exec, brightnessctl s +5%"
           ",XF86MonBrightnessDown, exec, brightnessctl s 5%-"
+          # screenshot
+          ",Print, exec, grimblast copy area"
         ]
         ++ (
           # workspaces
