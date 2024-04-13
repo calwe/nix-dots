@@ -26,8 +26,16 @@
   };
 
   # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader = {
+    grub = {
+      enable = true;
+      useOSProber = true;
+      device = "nodev";
+      efiSupport = true;
+      gfxmodeEfi = "1280x720";
+    };
+    efi.canTouchEfiVariables = true;
+  };
 
   services.xserver.videoDrivers = [ "nvidia" ];
 
