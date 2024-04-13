@@ -8,6 +8,7 @@
     (modules + "/media")
     (modules + "/programming")
     (modules + "/system")
+    (modules + "/obsidian.nix")
   ];
 
   home.username = "callum";
