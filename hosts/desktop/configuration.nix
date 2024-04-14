@@ -6,6 +6,7 @@
       (modules + "/fonts/nerdfonts.nix")
       (modules + "/mullvad.nix")
       (modules + "/steam.nix")
+      (modules + "/sddm.nix")
       (modules + "/pipewire.nix")
     ];
 

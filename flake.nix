@@ -10,6 +10,11 @@
     };
 
     nixvim-flake.url = "github:calwe/nixvim";
+
+    sddm-catppuccin = {
+      url = "github:khaneliman/sddm-catppuccin";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = { self, nixpkgs, ... }@inputs:
