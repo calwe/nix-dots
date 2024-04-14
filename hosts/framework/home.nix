@@ -3,7 +3,7 @@
   imports = let modules = ../../modules/home-manager; in [
     (modules + "/terminal")
     (modules + "/hyprland")
-    (modules + "/hyprland/monitors/desktop.nix")
+    (modules + "/hyprland/monitors/framework.nix")
     (modules + "/internet")
     (modules + "/media")
     (modules + "/programming")

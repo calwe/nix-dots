@@ -11,12 +11,6 @@
     xwayland.enable = true;
     systemd.enable = true;
     settings = {
-      monitor = [
-#        "eDP-1,2256x1504,0x0,1"
-        "DP-4,2560x1440@144,0x0,1"
-        "HDMI-A-2,1920x1080@60,2560x0,1"
-      ];
-
       env = [
         "WLR_NO_HARDWARE_CURSORS,1"
         "NIXOS_OZONE_WL,1" 
