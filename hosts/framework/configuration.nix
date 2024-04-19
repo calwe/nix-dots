@@ -8,6 +8,7 @@
       (modules + "/steam.nix")
       (modules + "/sddm.nix")
       (modules + "/pipewire.nix")
+      (modules + "/vm.nix")
     ];
 
   home-manager = {
